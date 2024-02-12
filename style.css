@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#3E3232;
+    margin: 50px 10px 50px 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #503C3C;
+    color: #F0EDCF;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.overall{
+    text-align: center;
+}
+
+.eyes img{
+    width: 500px;
+}
+
+.eyes{
+    height: 100vh;
+}
+
+.mouth img{
+    width: 200px;
+}
+
+.mouth{
+    height: 100vh;
+}
+
+.face img{
+    width: 300px;
+}
+
+.face{
+    height: 100vh;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.btn{
+    all: unset;
+}
+
+.btn-style{
+    background-color: #A87C7C;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+p{
+    background-color: #7E6363;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px 200px 50px 200px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 100px;
+    color: #F0EDCF;
+}
